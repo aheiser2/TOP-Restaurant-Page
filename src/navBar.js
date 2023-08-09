@@ -3,10 +3,7 @@ const links = ["Home", "About", "Products", "Contacts"]
 
 const navBar = document.createElement('div')
     navBar.id = "menu"
-    navBar.style.backgroundColor = "green"
-    navBar.style.height = "120px"
-    navBar.style.width = "200px"
-    // navBar.innerHTML = "I'm an export"
+    // navBar.style.backgroundColor = "green"
     navBar.style.border = "double purple 2px"
     let list = document.createElement("ul")
     navBar.appendChild(list)

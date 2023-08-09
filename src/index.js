@@ -31,9 +31,10 @@ function component() {
 
 function webPage(){
     const element = document.createElement('div');
-    element.style.backgroundColor = "blue"
-    element.style.height = "500px"
-    element.style.width = "700px"
+    element.id = "container"
+    // element.style.backgroundColor = "blue"
+    // element.style.height = "500px"
+    // element.style.width = "700px"
 
     // const header = document.createElement('div')
     // header.style.backgroundColor = "pink"
