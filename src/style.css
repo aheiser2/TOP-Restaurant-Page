@@ -23,14 +23,14 @@ body {
 
 /*_________THE TAB SECTION____*/
   /* Style the tab */
-.tab {
+/* .tab {
 	overflow: hidden;
 	border: 1px solid #ccc;
 	background-color: #f1f1f1;
-  }
+  } */
   
   /* Style the buttons that are used to open the tab content */
-  .tab button {
+  /* .tab button {
 	background-color: inherit;
 	float: left;
 	border: none;
@@ -38,25 +38,25 @@ body {
 	cursor: pointer;
 	padding: 14px 16px;
 	transition: 0.3s;
-  }
+  } */
   
   /* Change background color of buttons on hover */
-  .tab button:hover {
+  /* .tab button:hover {
 	background-color: #ddd;
-  }
+  } */
   
   /* Create an active/current tablink class */
-  .tab button.active {
+  /* .tab button.active {
 	background-color: #ccc;
-  }
+  } */
   
   /* Style the tab content */
-  .tabcontent {
+  /* .tabcontent {
 	display: none;
 	padding: 6px 12px;
 	border: 1px solid #ccc;
 	border-top: none;
-  } 
+  }  */
 
   /*_________END OF THE TAB SECTION____*/
 
@@ -90,8 +90,10 @@ top:252px;
 
 #mainpic
 {
-background-image:url(images/main.jpg);
+background-image:url(images/Quinn1.jpg);
 background-repeat:no-repeat;
+background-attachment: fixed;
+  background-position: center; 
 width:900px;
 height:354px;	
 }
@@ -117,11 +119,11 @@ float:left;
 clear:both;
 }
 
-#content
+.content
 {
 width:880px;
 height:auto;
-background-color:#FFF;
+background-color:#b66e6e;
 padding-left:10px;
 padding-right:10px;
 padding-bottom:5px;
@@ -131,6 +133,7 @@ padding-bottom:5px;
 {
 width:inherit;
 height:auto;
+color:#3c6699
 }
 
 #footer h3 a,#footer h3 a:visited

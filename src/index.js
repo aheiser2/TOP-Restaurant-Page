@@ -39,8 +39,8 @@ function webPage(){
     // element.style.width = "700px"
 
 
-    element.append(header, navBar, contentArea, footer)
-    contentArea.append(homepage, asideSec, productspage, contactpage)
+    element.append(header, navBar, homepage, asideSec, productspage, contactpage, footer)
+    // contentArea.append(homepage, asideSec, productspage, contactpage)
 
     return element
 
